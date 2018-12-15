@@ -1,0 +1,28 @@
+{
+  "name": "remote-file-webpack-plugin",
+  "description": "Webpack 4 plugin to download remote files and save them locally",
+  "author": "nystudio107",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "keywords": [
+    "webpack"
+  ],
+  "scripts": {
+    "build": "mkdir dist && babel src/index.js --presets @babel/env --out-file dist/index.js"
+  },
+  "files": [
+    "dist/index.js"
+  ],
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "dependencies": {
+    "download": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
+  }
+}
