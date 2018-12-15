@@ -2,7 +2,7 @@ const fs = require('fs');
 const util = require('util');
 const download = require('download');
 
-const CACHE_FOLDER = process.cwd() + '/node_modules/.cache/pack-remote-file-plugin/';
+const CACHE_FOLDER = process.cwd() + '/node_modules/.cache/remote-file-webpack-plugin/';
 const FS = {
   mkdir: util.promisify(fs.mkdir),
   access: util.promisify(fs.access),
