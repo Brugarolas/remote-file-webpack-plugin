@@ -84,7 +84,7 @@ const downloadAsync = async (context, compilation, option) => {
 };
 
 /** Webpack Module **/
-module.exports = class PackRemoteFilePlugin {
+module.exports = class RemoteFileWebpackPlugin {
   constructor(options) {
     this.options = options instanceof Array ? options : [ options ];
   }
