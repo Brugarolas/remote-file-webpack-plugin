@@ -2,7 +2,7 @@
   "name": "remote-file-webpack-plugin",
   "description": "Webpack 4 plugin to download remote files and save them locally",
   "author": "andres-brugarolas",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "src/index.js",
   "license": "MIT",
   "keywords": [
